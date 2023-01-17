@@ -5,7 +5,7 @@ import BlogCard from '../BlogCard/BlogCard.js';
 export default function Main() {
   return (
     <main>
-      {useBlogs.map((item) => (
+      {useBlogs().map((item) => (
         <BlogCard key={item.id} {...item} />
       ))}
     </main>
