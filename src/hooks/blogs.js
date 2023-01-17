@@ -11,6 +11,10 @@ export function useBlogs() {
       setBlogs(resp);
     };
     fetchData();
-  });
+  }, []);
   return blogs;
 }
+
+// export function useAuthors() {
+//   const [authors, setAuthors] = useState([]);
+// }
