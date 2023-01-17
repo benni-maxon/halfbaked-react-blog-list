@@ -1,7 +1,6 @@
-import { checkError, client } from "./client.js";
+import { checkError, client } from './client.js';
 
-
-export async function fetchAnimals() {
-    const resp = await client.from('blogs').select('*');
-    return checkError(resp);
+export async function fetchBlogs() {
+  const resp = await client.from('blogs').select('*');
+  return checkError(resp);
 }
