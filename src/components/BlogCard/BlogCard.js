@@ -6,7 +6,7 @@ export default function BlogCard({ title, subtitle, text, image, authors: { name
     <div className="blog-card">
       <div className="details">
         <div className="title">{title}</div>
-        <div className="author">{`By ${name}`}</div>
+        <div className="author">By {name}</div>
         <div className="subtitle">{subtitle}</div>
         <div className="text">{text}</div>
       </div>
