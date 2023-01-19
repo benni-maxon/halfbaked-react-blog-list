@@ -18,6 +18,13 @@
   font-weight: bold;
 }
 
+.author {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .subtitle {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
